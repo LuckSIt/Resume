@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+    margin: auto;
+    max-width: 750px;
+    padding-top: 30px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 30px;
+
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+}
+
+.info h4 {
+    margin-bottom: 10px;
+}
+
+
+
+.card {
+    border-radius: 20px;
+    background: lightskyblue;
+    padding-left: 10px;
+    height: 170px;
+    padding-top: 1px;
+    margin-bottom: 20px;
+}
+
+.card1 {
+    border-radius: 20px;
+    background: rgb(160, 124, 245);
+    padding-left: 10px;
+    height: 170px;
+    padding-top: 1px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: brown;
+}
+a:active {
+    color: blue;
+}
+
+.btn {
+    background: #111;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+    font-family: inherit;
+}
+.btn:hover {
+    opacity: 0.8;
+    color: orange;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+} 
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    /* border: none; */
+
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
